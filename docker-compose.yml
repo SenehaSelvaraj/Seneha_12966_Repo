@@ -20,7 +20,7 @@ services:
       dockerfile: Dockerfile
     container_name: spring-container-1
     ports:
-      - "8900:8080"
+      - "8901:8080"
     depends_on:
       mysql-db:
         condition: service_healthy
